@@ -67,6 +67,8 @@ The advanced lab models a production-grade retail bank across four normalized ta
 
 ## 📐 Database Normalization Journey (1NF to 3NF)
 
+> **Hands-on Script**: [`scripts/10_normalization_lab.sql`](scripts/10_normalization_lab.sql) — Contains the complete runnable migration from `bank_flat` to 3NF with live anomaly triggers and resolution verification.
+
 A common interview & enterprise design pattern is decomposing unnormalized flat spreadsheets (`bank_flat`) into Third Normal Form:
 
 ### 1. Flat Denormalized Model (`bank_flat`)
@@ -130,6 +132,7 @@ ey-postgresql-bank-database/
     ├── 07_functions_and_views.sql             # Module 2: Built-in & PL/pgSQL UDFs, Views
     ├── 08_stored_procedures.sql               # Module 2: Procedures, INOUT, Locks & Transfers
     ├── 09_advanced_lab_assessment.sql         # Module 2: Advanced Lab Solutions (10 Tasks)
+    ├── 10_normalization_lab.sql               # Module 2: 1NF->2NF->3NF Migration & Anomaly Lab
     └── all_in_one_advanced_lab.sql            # Module 2: Master All-In-One Enterprise Script
 ```
 

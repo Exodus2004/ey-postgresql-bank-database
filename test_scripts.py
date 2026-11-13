@@ -24,6 +24,7 @@ FILES = [
     "07_functions_and_views.sql",
     "08_stored_procedures.sql",
     "09_advanced_lab_assessment.sql",
+    "10_normalization_lab.sql",
     "all_in_one_advanced_lab.sql"
 ]
 
@@ -79,7 +80,7 @@ for f_name in FILES:
 
 print("=" * 80)
 if all_passed:
-    print("ALL 11 POSTGRESQL SCRIPTS ARE 100% CLEAN AND VERIFIED!")
+    print(f"ALL {len(FILES)} POSTGRESQL SCRIPTS ARE 100% CLEAN AND VERIFIED!")
 else:
     print("SOME SCRIPTS REQUIRE ATTENTION")
 print("=" * 80)
